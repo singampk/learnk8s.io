@@ -151,7 +151,7 @@ function renderPage(state: State, sections: Section[]) {
           <p className='f4-l f5 lh-copy measure'>
             The content is open source and available{' '}
             <a
-              href='https://github.com/learnk8s/kubernetes-production-best-practices'
+              href='https://github.service.anz/k8s-essentials/kubernetes-production-best-practices'
               className='link navy underline'
               target='_blank'
               rel='noreferrer'

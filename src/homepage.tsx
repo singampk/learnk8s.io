@@ -146,129 +146,129 @@ function renderPage(state: State) {
 
         <Interlude />
 
-        <section className='pa3 pa4-ns flex-ns items-center-ns justify-center-ns w-100'>
-          <div className='ph3'>
-            <div className='content measure-wide'>
-              <h2 className='f3 navy f2-l'>Learnk8s Academy</h2>
-              <p className='f4-l lh-copy black-70 measure-wide'>Learn Kubernetes online with hands-on material.</p>
-              <p className='f4-l lh-copy black-70 measure-wide'>
-                You will learn how to create, package and deploy your applications to Kubernetes from the comfort of
-                your home.
-              </p>
-              <p className='f4-l lh-copy black-70 measure-wide'>
-                There's no deadline: enjoy learning Kubernetes and solving challenges at your pace.
-              </p>
-              <ul className='list mv4'>
-                <ListItem>
-                  <span className='b'>Interactive lectures</span>
-                </ListItem>
-                <ListItem>
-                  <span className='b'>Hands-on material</span>
-                </ListItem>
-                <ListItem>
-                  <span className='b'>Designed for visual learners</span>
-                </ListItem>
-              </ul>
-              <PrimaryButton href={Academy.url} text='Learn more &#8594;' />
-            </div>
-          </div>
+        {/*<section className='pa3 pa4-ns flex-ns items-center-ns justify-center-ns w-100'>*/}
+        {/*  <div className='ph3'>*/}
+        {/*    <div className='content measure-wide'>*/}
+        {/*      <h2 className='f3 navy f2-l'>Learnk8s Academy</h2>*/}
+        {/*      <p className='f4-l lh-copy black-70 measure-wide'>Learn Kubernetes online with hands-on material.</p>*/}
+        {/*      <p className='f4-l lh-copy black-70 measure-wide'>*/}
+        {/*        You will learn how to create, package and deploy your applications to Kubernetes from the comfort of*/}
+        {/*        your home.*/}
+        {/*      </p>*/}
+        {/*      <p className='f4-l lh-copy black-70 measure-wide'>*/}
+        {/*        There's no deadline: enjoy learning Kubernetes and solving challenges at your pace.*/}
+        {/*      </p>*/}
+        {/*      <ul className='list mv4'>*/}
+        {/*        <ListItem>*/}
+        {/*          <span className='b'>Interactive lectures</span>*/}
+        {/*        </ListItem>*/}
+        {/*        <ListItem>*/}
+        {/*          <span className='b'>Hands-on material</span>*/}
+        {/*        </ListItem>*/}
+        {/*        <ListItem>*/}
+        {/*          <span className='b'>Designed for visual learners</span>*/}
+        {/*        </ListItem>*/}
+        {/*      </ul>*/}
+        {/*      <PrimaryButton href={Academy.url} text='Learn more &#8594;' />*/}
+        {/*    </div>*/}
+        {/*  </div>*/}
+        
+        {/*  <div className='ml7-l dn db-ns'>*/}
+        {/*    <div className='i-cat-and-dog relative'>*/}
+        {/*      {React.createElement('img', {*/}
+        {/*        src: 'assets/cat_and_dog.svg',*/}
+        {/*        alt: 'Learn at your own pace',*/}
+        {/*        loading: 'lazy',*/}
+        {/*        className: 'absolute top-0 right-0',*/}
+        {/*      })}*/}
+        {/*    </div>*/}
+        {/*  </div>*/}
+        {/*</section>*/}
 
-          <div className='ml7-l dn db-ns'>
-            <div className='i-cat-and-dog relative'>
-              {React.createElement('img', {
-                src: 'assets/cat_and_dog.svg',
-                alt: 'Learn at your own pace',
-                loading: 'lazy',
-                className: 'absolute top-0 right-0',
-              })}
-            </div>
-          </div>
-        </section>
+        {/*<section className='pa3 pa4-ns flex-ns items-center-ns justify-center-ns w-100 bg-evian'>*/}
+        {/*  <div className='tc'>*/}
+        {/*    <div className='mr7-l dib'>*/}
+        {/*      <div className='i-whiteboard relative'>*/}
+        {/*        {React.createElement('img', {*/}
+        {/*          src: 'assets/whiteboard.svg',*/}
+        {/*          alt: 'Instructor-led training',*/}
+        {/*          loading: 'lazy',*/}
+        {/*          className: 'absolute top-0 right-0',*/}
+        {/*        })}*/}
+        {/*      </div>*/}
+        {/*    </div>*/}
+        {/*  </div>*/}
+        
+        {/*  <div className='ph3'>*/}
+        {/*    <div className='measure-wide'>*/}
+        {/*      <h2 className='f3 navy f2-l'>Advanced Kubernetes training</h2>*/}
+        {/*      <p className='f4-l lh-copy black-70'>*/}
+        {/*        Instructor-led, hands-on modular courses that will train you and your team on how to deploy apps into*/}
+        {/*        Kubernetes.*/}
+        {/*      </p>*/}
+        {/*      <p className='f4-l lh-copy black-70'>*/}
+        {/*        The training course draws from the real world examples making it perfect to quickly get up to speed with*/}
+        {/*        containers and Kubernetes.*/}
+        {/*      </p>*/}
+        {/*      <ul className='list mv4'>*/}
+        {/*        <ListItem>*/}
+        {/*          <span className='b'>Public courses</span>*/}
+        {/*        </ListItem>*/}
+        {/*        <ListItem>*/}
+        {/*          <span className='b'>Private courses</span>*/}
+        {/*        </ListItem>*/}
+        {/*        <ListItem>*/}
+        {/*          <span className='b'>Hands-on material</span>*/}
+        {/*        </ListItem>*/}
+        {/*      </ul>*/}
+        {/*      <PrimaryButton href={Training.url} text='Get started &#8594;' />*/}
+        {/*    </div>*/}
+        {/*  </div>*/}
+        {/*</section>*/}
 
-        <section className='pa3 pa4-ns flex-ns items-center-ns justify-center-ns w-100 bg-evian'>
-          <div className='tc'>
-            <div className='mr7-l dib'>
-              <div className='i-whiteboard relative'>
-                {React.createElement('img', {
-                  src: 'assets/whiteboard.svg',
-                  alt: 'Instructor-led training',
-                  loading: 'lazy',
-                  className: 'absolute top-0 right-0',
-                })}
-              </div>
-            </div>
-          </div>
-
-          <div className='ph3'>
-            <div className='measure-wide'>
-              <h2 className='f3 navy f2-l'>Advanced Kubernetes training</h2>
-              <p className='f4-l lh-copy black-70'>
-                Instructor-led, hands-on modular courses that will train you and your team on how to deploy apps into
-                Kubernetes.
-              </p>
-              <p className='f4-l lh-copy black-70'>
-                The training course draws from the real world examples making it perfect to quickly get up to speed with
-                containers and Kubernetes.
-              </p>
-              <ul className='list mv4'>
-                <ListItem>
-                  <span className='b'>Public courses</span>
-                </ListItem>
-                <ListItem>
-                  <span className='b'>Private courses</span>
-                </ListItem>
-                <ListItem>
-                  <span className='b'>Hands-on material</span>
-                </ListItem>
-              </ul>
-              <PrimaryButton href={Training.url} text='Get started &#8594;' />
-            </div>
-          </div>
-        </section>
-
-        <section className='pa3 pa4-ns flex-ns items-center-ns justify-center-ns w-100'>
-          <div className='ph3'>
-            <div className='measure-wide'>
-              <h2 className='f3 navy f2-l'>Enterprise-ready Kubernetes consulting</h2>
-              <p className='f4-l lh-copy black-70'>
-                Have you already built a Kubernetes cluster, but want the confidence it won't die when you move into
-                production?
-              </p>
-              <p className='f4-l lh-copy black-70'>
-                Our engineers have deployed production-ready Kubernetes for the hottest start-ups and the largest
-                Enterprises.
-              </p>
-              <p className='f4-l lh-copy black-70'>
-                {' '}
-                Their wide variety of experience will enable you to get the most out of Kubernetes and make sure you
-                avoid unnecessary issues and pitfalls.
-              </p>
-              <ul className='list mv4'>
-                <ListItem>
-                  <span className='b'>Evaluate Kubernetes in your organisation</span>
-                </ListItem>
-                <ListItem>
-                  <span className='b'>Assess your Kubernetes practices</span>
-                </ListItem>
-                <ListItem>
-                  <span className='b'>Standardise your processes</span>
-                </ListItem>
-              </ul>
-              <PrimaryButton href={Consulting.url} text='Get started &#8594;' />
-            </div>
-          </div>
-
-          <div className='ml7-l dn db-ns'>
-            <div className='i-team relative'>
-              {React.createElement('img', {
-                src: 'assets/team.svg',
-                alt: 'Consulting',
-                loading: 'lazy',
-                className: 'absolute top-0 right-0',
-              })}
-            </div>
-          </div>
-        </section>
+        {/*<section className='pa3 pa4-ns flex-ns items-center-ns justify-center-ns w-100'>*/}
+        {/*  <div className='ph3'>*/}
+        {/*    <div className='measure-wide'>*/}
+        {/*      <h2 className='f3 navy f2-l'>Enterprise-ready Kubernetes consulting</h2>*/}
+        {/*      <p className='f4-l lh-copy black-70'>*/}
+        {/*        Have you already built a Kubernetes cluster, but want the confidence it won't die when you move into*/}
+        {/*        production?*/}
+        {/*      </p>*/}
+        {/*      <p className='f4-l lh-copy black-70'>*/}
+        {/*        Our engineers have deployed production-ready Kubernetes for the hottest start-ups and the largest*/}
+        {/*        Enterprises.*/}
+        {/*      </p>*/}
+        {/*      <p className='f4-l lh-copy black-70'>*/}
+        {/*        {' '}*/}
+        {/*        Their wide variety of experience will enable you to get the most out of Kubernetes and make sure you*/}
+        {/*        avoid unnecessary issues and pitfalls.*/}
+        {/*      </p>*/}
+        {/*      <ul className='list mv4'>*/}
+        {/*        <ListItem>*/}
+        {/*          <span className='b'>Evaluate Kubernetes in your organisation</span>*/}
+        {/*        </ListItem>*/}
+        {/*        <ListItem>*/}
+        {/*          <span className='b'>Assess your Kubernetes practices</span>*/}
+        {/*        </ListItem>*/}
+        {/*        <ListItem>*/}
+        {/*          <span className='b'>Standardise your processes</span>*/}
+        {/*        </ListItem>*/}
+        {/*      </ul>*/}
+        {/*      <PrimaryButton href={Consulting.url} text='Get started &#8594;' />*/}
+        {/*    </div>*/}
+        {/*  </div>*/}
+        
+        {/*  <div className='ml7-l dn db-ns'>*/}
+        {/*    <div className='i-team relative'>*/}
+        {/*      {React.createElement('img', {*/}
+        {/*        src: 'assets/team.svg',*/}
+        {/*        alt: 'Consulting',*/}
+        {/*        loading: 'lazy',*/}
+        {/*        className: 'absolute top-0 right-0',*/}
+        {/*      })}*/}
+        {/*    </div>*/}
+        {/*  </div>*/}
+        {/*</section>*/}
 
         <Consultation />
         <Footer />
